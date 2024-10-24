@@ -1,6 +1,6 @@
 const Special = async () => {
   try {
-    let res = await axios.get("https://rmeanhd.github.io/Filimo-database/special.json");
+    let res = await axios.get("https://armant84.github.io/filimo-api/special.json");
     let special = res.data.map((item) => {
       if (item.header) {
         return `

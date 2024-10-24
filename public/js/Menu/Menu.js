@@ -3,7 +3,7 @@ const Menu = async () => {
   let submenu = "";
   let login = "";
   try {
-    let res = await axios.get("https://rmeanhd.github.io/Filimo-database/menu.json");
+    let res = await axios.get("https://armant84.github.io/filimo-api/menu.json");
     menu = res.data.map((item) => {
       return `
             <div class="logo border-l-[1px] border-solid border-[#FFFFFF]/[0.3] ml-[18px] ">
@@ -18,7 +18,7 @@ const Menu = async () => {
       .querySelector(".menu nav .logo")
       .insertAdjacentHTML("beforeend", menu.join(""));
 
-    let sub = await axios.get("https://rmeanhd.github.io/Filimo-database/submenu.json");
+    let sub = await axios.get("https://armant84.github.io/filimo-api/submenu.json");
 
     submenu = sub.data.map((item) => {
       if (item.svg) {

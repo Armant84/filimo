@@ -1,7 +1,7 @@
 const Slider = async () => {
   try {
     let slider = "";
-    let sli = await axios.get("https://rmeanhd.github.io/Filimo-database/slider.json");
+    let sli = await axios.get("https://armant84.github.io/filimo-api/slider.json");
     slider = sli.data.map((item) => {
       if (item.movieLogo || item.details || item.exclusive) {
 

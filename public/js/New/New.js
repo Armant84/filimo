@@ -1,7 +1,7 @@
 const New = async () => {
   try {
-    let res = await axios.get("https://rmeanhd.github.io/Filimo-database/newer.json");
-    let ser = await axios.get("https://rmeanhd.github.io/Filimo-database/newer.json");
+    let res = await axios.get("https://armant84.github.io/filimo-api/newer.json");
+    let ser = await axios.get("https://armant84.github.io/filimo-api/newer.json");
     var swiper = new Swiper(".myNew", {
       breakpoints: {
         375: { // mobile

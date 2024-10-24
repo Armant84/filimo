@@ -2,7 +2,7 @@ const Footer = async () => {
     try {
      
     
-      let res = await axios.get("https://rmeanhd.github.io/Filimo-database/footer.json");
+      let res = await axios.get("https://armant84.github.io/filimo-api/footer.json");
       let footer = res.data.map((item) => {
         return `
         <div class="cinema__features w-full mobile:h-auto mb-[16px] flex flex-wrap items-center justify-center laptop:max-w-[1493px] laptop:justify-center gap-x-[16px]">

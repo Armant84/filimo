@@ -1,6 +1,6 @@
 const Cinema = async () => {
   try {
-    let res = await axios.get("https://rmeanhd.github.io/Filimo-database/cinema.json");
+    let res = await axios.get("https://armant84.github.io/filimo-api/cinema.json");
     let cinema = res.data.map((item) => {
         return `
         <div class="cinema__title mt-[30px] w-full h-[20px] mb-[32px] font-bold text-[17px] leading-[20px] text-white flex flex-wrap items-center justify-center">           

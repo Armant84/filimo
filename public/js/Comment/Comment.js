@@ -1,6 +1,6 @@
 const Comment = async () => {
     try {
-      let res = await axios.get("https://rmeanhd.github.io/Filimo-database/comments.json");
+      let res = await axios.get("https://armant84.github.io/filimo-api/comments.json");
       let comments = res.data.map((item) => {
           return `
           <div class="comments__main px-[60px] w-full max-w-[1450px] h-[260px] relative">

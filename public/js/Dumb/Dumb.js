@@ -1,6 +1,6 @@
 const Dumb = async () => {
  try {
-    let res = await axios.get("https://rmeanhd.github.io/Filimo-database/dumb.json");
+    let res = await axios.get("https://armant84.github.io/filimo-api/dumb.json");
     let dumb = res.data.map((item) => {
         if(item.id==1){
             return `

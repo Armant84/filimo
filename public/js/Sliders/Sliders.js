@@ -1,6 +1,6 @@
 const Sliders = async () => {
   try {
-    let res = await axios.get("https://rmeanhd.github.io/Filimo-database/sliders.json");
+    let res = await axios.get("https://armant84.github.io/filimo-api/sliders.json");
     
     let sliders = res.data.map((item) => {
       return `
