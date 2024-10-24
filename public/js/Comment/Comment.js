@@ -42,7 +42,7 @@ const Comment = async () => {
                   <div class="comma">
                     <img
                       class="w-[40px] h-[34px]"
-                      src="https://www.filimo.com/assets/web/ui/img-KpotX5g2dIxoRKAEJGUuJA/campaigns/big-screen_v2/virgol.png"
+                      src="https://www.filimo.com/assets/web/ui/img-m2PeuwbNt9R1PhZBO5tb5w/campaigns/big-screen_v2/virgol.png"
                       alt=""
                     />
                   </div>
